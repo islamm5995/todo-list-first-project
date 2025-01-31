@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+
+}
+
+.container{
+    margin: 0;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 55px;
+    color: blue;
+}
+
+/* 1em = 16px */
+
+.mainBlock{
+    width: 800px;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 35px;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 3em;
+    padding-top: 3em;
+}
+
+
+.mainBlock div{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr ;
+    grid-column-gap: 15px;
+}
+
+.texIn{
+    height: 2em;
+    text-align: center;
+}
+
